@@ -1,43 +1,27 @@
 <script setup>
 import { ref } from 'vue'
+const bienvenida =ref ("Bienvenidos a la seccion de condicionales")
+const nombre =ref ("Blanca estela ")
+const apellidos=ref("valerio rivero")
+//defineProps({
+  //msg: String,
+//})
 
-defineProps({
-  msg: String,
-})
 
-const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
+  <div class="container">
+    <h2 class="text-center">{{ bienvenida }}</h2>
+    <div class="row">
+      <div class="cold-md-6">
+        <h6 class=""> {{ nombre }}</h6>
+        <h6> {{ apellidos }}</h6>
+      </div>
+    </div>
   </div>
-
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Learn more about IDE Support for Vue in the
-    <a
-      href="https://vuejs.org/guide/scaling-up/tooling.html#ide-support"
-      target="_blank"
-      >Vue Docs Scaling up Guide</a
-    >.
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+  
+  
 </template>
 
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
-</style>
+<style scoped></style>
