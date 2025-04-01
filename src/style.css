@@ -1,0 +1,22 @@
+.semana{
+    background-color: aqua;
+  }
+  h3{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color:rgb(76, 17, 172);
+      background-color: rgb(170, 164, 172);
+      border-radius: 15px;
+      padding: 10px;
+      text-align: center;
+      
+      
+  }
+  td,th{
+    border-color:rgb(0, 0, 0) ;
+    color: bisque;
+  
+  }
+  th{
+    background-color: aqua;
+  }
+  
